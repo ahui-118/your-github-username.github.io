@@ -1,0 +1,27 @@
+{
+  "owner": {
+    "permission_name": "owner",
+    "threshold": 1,
+    "keys": [
+      {
+        "address": "411c2d0a7e75b74d2d3b4248eaf2137b7640d15eaa",
+        "weight": 1
+      }
+    ]
+  },
+  "actives": [
+    {
+      "type": "Active",
+      "id": 2,
+      "permission_name": "active",
+      "threshold": 1,
+      "operations": "7fff1fc0033ec30f000000000000000000000000000000000000000000000000",
+      "keys": [
+        {
+          "address": "411c2d0a7e75b74d2d3b4248eaf2137b7640d15eaa",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
